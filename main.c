@@ -1,8 +1,11 @@
 #include <stdio.h>
 
+#include "menu.h"
 #include "library.h"
 
 int main(void) {
-    printf("hello world");
+    struct Book *start = NULL;
+    showMenu(start);
+    destroyList(start);
     return 0;
 }

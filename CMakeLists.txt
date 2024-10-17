@@ -11,4 +11,6 @@ set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -std=c90 -Wpedantic -Wall -W
 
 add_executable(Exo2 main.c
         library.c
-        library.h)
+        library.h
+        menu.c
+        menu.h)

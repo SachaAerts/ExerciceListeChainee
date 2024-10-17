@@ -1,4 +1,4 @@
-# Install script for directory: C:/HelmoC/SystemeExploitation/Chap7/Exo2
+# Install script for directory: C:/Helmo/SystemeExploitation/Chap7/Exo2/ExerciceListeChainee
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/HelmoC/SystemeExploitation/Chap7/Exo2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Helmo/SystemeExploitation/Chap7/Exo2/ExerciceListeChainee/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
