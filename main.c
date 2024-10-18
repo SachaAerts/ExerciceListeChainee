@@ -5,7 +5,7 @@
 
 int main(void) {
     struct Book *start = NULL;
-    showMenu(start);
+    showMenu(&start);
     destroyList(start);
     return 0;
 }

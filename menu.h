@@ -3,6 +3,6 @@
 
 #include "library.h"
 
-void showMenu(struct Book *start);
+void showMenu(struct Book **start);
 
 #endif
